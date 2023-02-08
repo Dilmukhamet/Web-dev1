@@ -1,0 +1,150 @@
+.center {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 593px
+    
+}
+body {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    background: #f0f2f5;
+}
+.left {
+    background: #f0f2f5;
+    float: left;
+    font-size: 30px;
+    text-align:left;
+    margin-top: 80px;
+}
+.right {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 23px;
+    float: right;
+    border: 1px solid;
+    border-color: #dbdddf;
+    background-color: white;
+    border-radius: 10px;
+    width: 370px;
+    height: 310px;
+}
+#celeb {
+    position: absolute;
+    top: 500px;
+    left: 1075px;
+    font-size: 17px;
+}
+input[type=text]{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 20px;
+    border:1px solid #ccd0d5;
+    border-radius: 4px;
+}
+input[type=password]{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-size: 20px;
+    border:1px solid #ccd0d5;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+  width: 360px;
+  height: 45px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type=text] {
+    margin-bottom: 15px;
+}
+input[type=password] {
+    margin-bottom: 15px;
+}
+#forpas {
+    color: #1877f2;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#lineforpas {
+    border: 1px solid #ddd;
+    width: 340px;
+    margin-top: 20px;
+}
+input[type=newacc] {
+    background-color: #42b72a;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    /*border-color: #42b72a;*/
+    border-style: none;
+    text-align: center;
+}
+input[type=add] {
+    background-color: #f5f6f7;
+    color: black;
+    cursor: pointer;
+    width: 15px;
+    height: 12px;
+    
+    border-color: #ccd0d5;
+    border-radius: 2px;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    height: 250px;
+    width: 100%;
+    color: #959dad;
+    background-color: white;
+    margin-left: 5px;
+}
+#refs {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 20px;
+    word-spacing: 5px;
+}
+#lineref {
+    border: 1px solid #ddd;
+    width: 1000px;
+}
+#links {
+    text-align: left;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.links {
+    text-align: left;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+}

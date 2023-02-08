@@ -1,0 +1,65 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+#top{
+    height: 40px;
+    padding-top:10px;
+}
+#left {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#right {
+    float: right;
+    margin-right: 50px;
+}
+#checking {
+    position: absolute;
+    margin-left: 90px;
+    width: 500px;
+    top: 210px;
+    left: 100px;
+    color: white;
+}
+#main{
+    font-size: 37px;
+    font-weight: bold;
+    word-spacing: 5px;
+    margin-bottom: 15px;
+}
+#sub {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+input[type=submit] {
+  background-color: #1877f2;
+  color: white;
+  cursor: pointer;
+  width: 250px;
+  height: 35px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer {
+    padding-left: 125px;
+    padding-top: 95px;
+}
+.pics {
+    margin-left: 20px;
+    float: left;
+    width: 385px;
+}
+.names {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text {
+    text-align: left;
+    margin-top: 10px;
+}
