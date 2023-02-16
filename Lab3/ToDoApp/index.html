@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> ToDoApp </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="top"> ToDo List
+    </div>
+    <div id="center">
+        To Do List<br>
+    <input type="text" id="taskinput" name="username" placeholder="New Task"required>
+    <input id="btn" type="submit" value="Add"><br>
+    </div>
+
+
+    <div id="innerdiv">
+        <script>
+        document.getElementById("btn").
+            addEventListener("click", function () {
+         var task_input = document.getElementById("taskinput").value;
+         const iDiv = document.createElement('div');
+         iDiv.id = 'task';
+         document.getElementById("innerdiv").appendChild(iDiv);
+         iDiv.innerText = task_input;
+         var iButton = document.createElement('button');
+         iButton.innerHTML = "RM"
+         dodument.body.appendChild('iButton');
+         var iCheck = document.createElement('input');
+         iCheck.type = "checkbox";
+         document.getElementById("innerdiv").appendChild('iCheck');
+         //document.getElementById("innerdiv").
+         //   innerHTML += "<div>Hello geeks</div>";
+         //   alert(task_input);
+        });        </script>
+    </div>  
+
+</body>
+</html>
+
