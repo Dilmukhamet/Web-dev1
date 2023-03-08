@@ -1,0 +1,8 @@
+<p>albums works!</p>
+<div *ngFor="let album of albums">
+<p><a [routerLink]="['/albums', album.id ]"> {{ album.title }} </a> </p>
+
+</div>
+<!-- <p> <a [title]="albums.title" [routerLink]="['/albums', albums.id]"> {{ albums.title }} </a>  </p> -->
+
+<router-outlet></router-outlet>
