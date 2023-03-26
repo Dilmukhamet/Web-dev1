@@ -7,3 +7,6 @@ def swap(ch: str ):
 num = input()
 
 print(''.join(list(map(swap, num))))
+
+
+
