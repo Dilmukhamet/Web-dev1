@@ -1,0 +1,12 @@
+<p>companydetail works!</p>
+<div *ngIf="company">
+    <h3>{{ company.name }}</h3>
+    <p>{{ company.description  }}</p>
+    <p>{{ company.city }}</p>
+  </div>
+  <br>
+<p><b>List of available vacancies</b> </p>
+<div *ngFor="let vacancy of vacancies">
+    <p> {{ vacancy.name }} </p>
+
+</div>

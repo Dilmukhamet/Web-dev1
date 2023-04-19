@@ -1,0 +1,9 @@
+<p>Compnies works!</p>
+
+<div *ngFor="let company of companies">
+
+ <!--   <p><a [routerLink]="['/companies', company.name ]"> {{ company.name }} </a> </p> -->
+    <p> <a [routerLink]="['/companies', company.id ]"> {{ company.name }} {{ company.id }} </a> </p>
+    
+</div>
+<router-outlet></router-outlet>

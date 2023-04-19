@@ -12,3 +12,4 @@ class Vacancy(models.Model):
     description = models.TextField(max_length=255)
     salary = models.FloatField(default=0)
     company = models.ForeignKey(to=Company, on_delete=models.CASCADE, related_name='vacancies')
+

@@ -1,5 +1,5 @@
 
-from django.http import HttpResponse, JsonResponse
+from django.http import JsonResponse
 from .models import Company, Vacancy
 
 def companies(request):
